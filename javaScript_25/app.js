@@ -28,8 +28,28 @@ console.log('port location: ',val)
 val = window.location.href
 console.log('link location: ',val)
 
-//redirect
-//window.location.href = "http://www.google.com"
+// redirect
+// window.location.href = "https://www.google.com"
 
-//reload
-window.location.reload()
+// reload
+// window.location.reload()
+
+// history: locahost >> yahoo >> copiar el link localhost >> execute
+//http://127.0.0.1:5500/javaScript_25/index.html
+// window.history.go(-1)
+
+//Navigator object
+val = window.navigator;
+console.log('window.navigator;', val)
+val = window.navigator.appName;
+console.log('window.navigator.appName;', val)
+val = window.navigator.appVersion;
+console.log('window.navigator.appVersion;', val)
+val = window.navigator.userAgent;
+console.log('window.navigator.userAgent;', val)
+val = window.navigator.platform;
+console.log('window.navigator.platform;', val)
+val = window.navigator.vendor;
+console.log('window.navigator.vendor;', val)
+val = window.navigator.language;
+console.log('window.navigator.language;', val)
