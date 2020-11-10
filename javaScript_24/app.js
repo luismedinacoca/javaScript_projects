@@ -1,9 +1,10 @@
 //alert
-window.alert('hello')
+// window.alert('hello')
 
 //prompt
-const name = prompt('what is your name? ')
-alert(`Hello ${name}`)
+// const name = prompt('what is your name? ')
+// alert(`Hello ${name}`)
+
 
 
 //confirm
